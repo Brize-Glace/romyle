@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 30px;
+}
+
+html {
+    background-color: #F4F5FA;
+    /* #325d79 */
+    /*274C6D */
+    color: #000;
+    scroll-behavior: smooth;
+}
+
+/* Appliquer un style de base à la barre de navigation */
+#navbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    z-index: 999;
+    position: fixed;
+    transition: background-color 0.5s;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 30px;
+    color: #F4F5FA;
+}
+
+#nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+}
+
+/* Style des liens de la barre de navigation */
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 20px;
+    transition: all 0.2s;
+}
+
+/* Style du bouton "hamburger" */
+#nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* style du nav-toggle */
+#nav-toggle i {
+    font-size: 30px;
+    color: #fff;
+}
+
+/* Style des liens de la barre de navigation */
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+    display: block;
+    transition: all 0.2s;
+}
+
+/*image du header du site */
+.hero {
+    height: 100vh;
+    background: url("img/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* changez l'opacité ici */
+    z-index: 0;
+}
+
+/* le texte dans l'image et le style de celui ci jusqu'a la ligne 106 */
+.txt-hero {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    padding-top: 35vh;
+    line-height: 20px;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.txt-hero h1 {
+    font-size: 70px;
+}
+
+.txt-hero p {
+    font-size: 25px;
+}
+
+.txt-hero p {
+    line-height: 60px;
+}
+
+/* pour la div main */
+/* .main {
+    padding-top: 30px;
+} */
+@media (max-width: 768px) {
+    #nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* #nav-toggle {
+        display: block;
+    } */
+
+    #navbar a {
+        padding: 20px;
+    }
+    #nav-menu {
+        display: none;
+    }
+
+    #nav-toggle {
+        display: block;
+    }
+}
+#about h1{
+    padding-top: 30px;
+    text-align: center;
+}
+#about p{
+    padding: 30px 250px;
+}
+#playlists{
+    padding: 20px;
+}
+#playlists h1{
+    text-align: center;
+}
+#playlistsFrames{
+    padding: 30px 250px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    text-align: center;
+    margin: 10px;
+}
+.image-container{
+    width: 243px;
+    height: 243px;
+    overflow: hidden;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+i{
+    margin: 10px;
+}
+#playlistsFrames p{
+    color: gray;
+    font-style: italic;
+}
+#playlistsFrames h2{
+    padding-top: 10px;
+}
+#playlistsFrames a{
+    color: #000;
+    text-decoration: none;
+}
+.edc2022 .fa-spotify{
+    color: rgb(150, 150, 150);
+}
+.contentNoAvailable p{
+    visibility: hidden;
+}
+@media (max-width: 768px) {
+    html{
+        overflow-x: hidden;
+    }
+    #about p{
+        padding: 30px 30px;
+    }
+    #playlistsFrames{
+        padding: 30px 200px;
+    }
+}
