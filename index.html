@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Nunito:wght@400;500;600&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Nunito:wght@400;500;600&family=Open+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Primary Meta Tags -->
@@ -34,6 +36,7 @@
 
 <body>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
     <nav id="navbar" class="navbar">
         <div class="navbar-brand">Romyle</div>
         <button id="nav-toggle" class="nav-toggle">
@@ -45,9 +48,12 @@
             <li><a id="playlistButton" href="#playlists">My Playlists</a></li>
             <li><a id="projectsButton" href="musics">Musics</a></li>
             <li><a id="contactButton" href="#contact">Contact</a></li>
+            <li><section class="wrapper"><button class="modal__btn" data-micromodal-trigger="modal-1" role="button"><i class="fas fa-exclamation"></i></button></section>
+                </li>
         </ul>
     </nav>
-
+    </div>
+    </div>
     <div class="hero">
         <div class="txt-hero">
             <center>
@@ -56,9 +62,22 @@
             </center>
         </div>
     </div>
+    <div id="modal-1" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+            <p>Presave The Previous Horizon <a href="https://vu.fr/romyle">Here!!!</a></p>
+              <button class="modal__close" aria-label="Close modal" data-micromodal-close>YAAAYY</button>
+          </div>
+        </div>
+      </div>
     <div id="about">
         <h1>About Me</h1>
-        <p>Hi, I'm Romyle, real name Romain Viktorovitch, born in German-speaking Switzerland in Winterthur near Zurich. I'm 17 years old and currently living in Paris, France. I'm a beginner EDM-House composer. I've been passionate about music since my early years. Nowadays, I particularly enjoy listening to EDM. Artists that inspire me include ILLENIUM, Said The Sky, Rival, Blanke, LUVIUM, Culture Code, Annkia Wells, and various others. These artists have fueled my desire to start creating EDM music.</p>
+        <p>Hi, I'm Romyle, real name Romain Viktorovitch, born in German-speaking Switzerland in Winterthur near Zurich.
+            I'm 17 years old and currently living in Paris, France. I'm a beginner EDM-House composer. I've been
+            passionate about music since my early years. Nowadays, I particularly enjoy listening to EDM. Artists that
+            inspire me include ILLENIUM, Said The Sky, Rival, Blanke, LUVIUM, Culture Code, Annkia Wells, and various
+            others. These artists have fueled my desire to start creating EDM music.</p>
     </div>
     <div id="playlists">
         <h1>My Selectioned Playlists</h1>
@@ -68,30 +87,40 @@
                     <img src="img/Annika Wells.jpg" alt="">
                 </div>
                 <h2>AnNiKa WeLlS</h2>
-                <p>Playlist by <a href="https://open.spotify.com/intl-fr/artist/0ScyCWPRD91gPXr90crdbT?si=CW-TfoOrQaqjWATRcpXDrA" target="_blank">StevenTed</a></p>
-                <a href="https://open.spotify.com/playlist/1LqKGNNpzNt4G1S7C7bWns?si=078a8a093a1f477b" target="_blank"><i class="fab fa-spotify fa-2x"></i></a>
-                <a href="https://music.apple.com/fr/playlist/annika-wells/pl.u-06oxpyAsYMkB72e" target="_blank"><i class="fab fa-apple fa-2x"></i></a>
+                <p>Playlist by <a
+                        href="https://open.spotify.com/intl-fr/artist/0ScyCWPRD91gPXr90crdbT?si=CW-TfoOrQaqjWATRcpXDrA"
+                        target="_blank">StevenTed</a></p>
+                <a href="https://open.spotify.com/playlist/1LqKGNNpzNt4G1S7C7bWns?si=078a8a093a1f477b"
+                    target="_blank"><i class="fab fa-spotify fa-2x"></i></a>
+                <a href="https://music.apple.com/fr/playlist/annika-wells/pl.u-06oxpyAsYMkB72e" target="_blank"><i
+                        class="fab fa-apple fa-2x"></i></a>
             </div>
-    
+
             <div class="card">
                 <div class="image-container">
                     <img src="img/Illenium.jpg" alt="">
                 </div>
                 <h2>Best of Illenium</h2>
-                <p>Playlist by <a href="https://open.spotify.com/artist/2Ct4FMJcBEb4SKkuMiYPyj" target="_blank">Romyle</a></p>
-                <a href="https://open.spotify.com/playlist/51vWMebmsYRHGUvUm9P59b?si=9a85133f15184a7a"><i class="fab fa-spotify fa-2x"></i></a>
-                <a href="https://music.apple.com/fr/playlist/best-of-illenium/pl.u-r2yBDkXIR7DLedp"><i class="fab fa-apple fa-2x"></i></a>
+                <p>Playlist by <a href="https://open.spotify.com/artist/2Ct4FMJcBEb4SKkuMiYPyj"
+                        target="_blank">Romyle</a></p>
+                <a href="https://open.spotify.com/playlist/51vWMebmsYRHGUvUm9P59b?si=9a85133f15184a7a"><i
+                        class="fab fa-spotify fa-2x"></i></a>
+                <a href="https://music.apple.com/fr/playlist/best-of-illenium/pl.u-r2yBDkXIR7DLedp"><i
+                        class="fab fa-apple fa-2x"></i></a>
             </div>
             <div class="card edc2022">
                 <div class="image-container">
                     <img src="img/edc2022.png" alt="">
                 </div>
                 <h2>EDC 2022 (DJ Mix)</h2>
-                <p>Playlist by <a href="https://open.spotify.com/intl-fr/artist/0ScyCWPRD91gPXr90crdbT?si=CW-TfoOrQaqjWATRcpXDrA" target="_blank">StevenTed</a></p>
+                <p>Playlist by <a
+                        href="https://open.spotify.com/intl-fr/artist/0ScyCWPRD91gPXr90crdbT?si=CW-TfoOrQaqjWATRcpXDrA"
+                        target="_blank">StevenTed</a></p>
                 <a href="#playlist"><i class="fab fa-spotify fa-2x"></i></a>
-                <a href="https://music.apple.com/fr/playlist/edc-2022-dj-mix/pl.u-76oNkyMtvPa5gZP"><i class="fab fa-apple fa-2x"></i></a>
+                <a href="https://music.apple.com/fr/playlist/edc-2022-dj-mix/pl.u-76oNkyMtvPa5gZP"><i
+                        class="fab fa-apple fa-2x"></i></a>
                 <div class="contentNoAvailable">
-                    <p>This content is not available <br> on Spotify</p> 
+                    <p>This content is not available <br> on Spotify</p>
                 </div>
             </div>
         </div>
@@ -100,7 +129,6 @@
         <h1>My Music</h1>
         <div id="featuredMusic">
             <h2>No release yet.</h2>
-            <p>BUT YOU CAN PRESAVE THE PREVIOUS HORIZON <p id="tg"><a class="music-link" href="https://vu.fr/romyle">HERRREEEE (click please uwu)</a></p></p>
         </div>
     </div>
     <footer>

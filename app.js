@@ -75,3 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
       contentNotAvailable.style.visibility = 'hidden';
   });
 });
+MicroModal.init({
+  openClass: 'is-open',
+  disableScroll: true,
+});
