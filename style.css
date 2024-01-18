@@ -207,14 +207,53 @@ i{
 .contentNoAvailable p{
     visibility: hidden;
 }
+#musics{
+    padding: 0 250px;
+}
+#musics h1{
+    text-align: center;
+}
+#featuredMusic h2{
+    text-align: center;
+    padding: 30px 250px;
+    color: gray;
+}
+#featuredMusic p{
+    text-align: center;
+    font-size: 10px;
+}
+#featuredMusic a{
+    text-decoration: none;
+    color: #ff0000;
+}
+#featuredMusic #tg  {
+    transform: scale(0.8);
+    transition: all ease-in-out .3s;
+}
+
+#featuredMusic #tg:hover {
+    text-decoration: underline;
+    transform: scale(10);
+}
+footer{
+    text-align: center;
+}
 @media (max-width: 768px) {
-    html{
-        overflow-x: hidden;
-    }
     #about p{
-        padding: 30px 30px;
+        padding: 30px 40px;
+        margin: 0 auto;
     }
     #playlistsFrames{
-        padding: 30px 200px;
+        padding: 30px 0px;
+        margin: 0 auto;
+    }
+    #musics{
+        padding: 0;
+    }
+    #featuredMusic h2 {
+        padding: 30px 30px;
+    }
+    #featuredMusic p{
+        padding: 0 70px;
     }
 }
