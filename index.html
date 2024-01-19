@@ -40,17 +40,17 @@
     <nav id="navbar" class="navbar">
         <div class="navbar-brand">Romyle</div>
         <button id="nav-toggle" class="nav-toggle">
-            <i class="fas fa-bars"></i>
+            <i class="fas fa-caret-down"></i>
         </button>
         <ul id="nav-menu" class="nav-menu">
             <li><a id="home" href="#">Accueil</a></li>
             <li><a id="aboutButton" href="#about">About</a></li>
             <li><a id="playlistButton" href="#playlists">My Playlists</a></li>
-            <li><a id="projectsButton" href="musics">Musics</a></li>
+            <li><a id="projectsButton" href="#musics">Musics</a></li>
             <li><a id="contactButton" href="#contact">Contact</a></li>
-            <li><section class="wrapper"><button class="modal__btn" data-micromodal-trigger="modal-1" role="button"><i class="fas fa-exclamation"></i></button></section>
-                </li>
         </ul>
+        <section class="wrapper"><button class="modal__btn" data-micromodal-trigger="modal-1" role="button"><i
+                    class="fas fa-exclamation"></i></button></section>
     </nav>
     </div>
     </div>
@@ -64,13 +64,13 @@
     </div>
     <div id="modal-1" aria-hidden="true">
         <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-          
-          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
-            <p>Presave The Previous Horizon <a href="https://vu.fr/romyle">Here!!!</a></p>
-              <button class="modal__close" aria-label="Close modal" data-micromodal-close>YAAAYY</button>
-          </div>
+
+            <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+                <p>Presave The Previous Horizon <a href="https://vu.fr/romyle">Here!!!</a></p>
+                <button class="modal__close" aria-label="Close modal" data-micromodal-close>YAAAYY</button>
+            </div>
         </div>
-      </div>
+    </div>
     <div id="about">
         <h1>About Me</h1>
         <p>Hi, I'm Romyle, real name Romain Viktorovitch, born in German-speaking Switzerland in Winterthur near Zurich.
@@ -129,6 +129,16 @@
         <h1>My Music</h1>
         <div id="featuredMusic">
             <h2>No release yet.</h2>
+        </div>
+    </div>
+    <div id="contact">
+        <h1>Let's get in touch!</h1>
+        <div class="social-links">
+          <p><a href="https://instagram.com/viktor_romain" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></p>
+          <p><a href="" target="_blank"><i class="fab fa-youtube"></i> YouTube</a></p>
+          <p><a href="https://open.spotify.com/intl-fr/artist/2Ct4FMJcBEb4SKkuMiYPyj" target="_blank"><i class="fab fa-spotify"></i> Spotify</a></p> 
+          <p><a href="https://music.apple.com/fr/artist/romyle/1725040953" target="_blank"><i class="fab fa-apple"></i> Apple Music</a></p><br>
+          <button class="business-request-btn" onclick="window.location.href='mailto:romylemusic@gmail.com'"><i class="fas fa-business-time"></i> Business Request</button>
         </div>
     </div>
     <footer>
