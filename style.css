@@ -79,7 +79,9 @@ html {
     display: block;
     transition: all 0.2s;
 }
-
+#navbar a:hover{
+    text-decoration: underline;
+}
 /*image du header du site */
 .hero {
     height: 100vh;
@@ -282,7 +284,7 @@ i{
 #musics h1{
     text-align: center;
 }
-#featuredMusic h2{
+#featuredMusic h4{
     text-align: center;
     padding: 30px 250px;
     color: gray;
@@ -352,7 +354,7 @@ footer{
     #musics{
         padding: 0;
     }
-    #featuredMusic h2 {
+    #featuredMusic h4 {
         padding: 30px 30px;
     }
     #featuredMusic p{
