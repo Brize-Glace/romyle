@@ -79,3 +79,5 @@ MicroModal.init({
   openClass: 'is-open',
   disableScroll: true,
 });
+
+document.getElementById("currentYear").innerText = new Date().getFullYear();
