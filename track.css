@@ -1,5 +1,4 @@
 body {
-    background-color: black;
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
     padding: 0;
@@ -38,7 +37,7 @@ p {
 
 .cover img {
     width: 40%;
-    /* display: block; */
+    display: block;
     border-radius: 25px;
 }
 
