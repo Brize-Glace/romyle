@@ -1,6 +1,5 @@
 body {
-    overflow: hidden;
-
+    /* overflow: hidden; */
     background-color: black;
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
@@ -60,13 +59,16 @@ p {
 
 @media (max-width: 768px) {
     .cover img {
-        width: 80%;
+        width: 100%;
     }
 
     h2 {
         font-size: 20px;
+        text-align: center;
     }
-
+    h3{
+        text-align: center;
+    }
     .platforms i {  
         display: flex;
         justify-content: center;
