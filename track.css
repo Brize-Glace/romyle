@@ -1,10 +1,12 @@
 body {
+    overflow: hidden;
     background-color: black;
     font-family: 'Josefin Sans', sans-serif;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     padding: 0;
     margin: 0;
+    height: 100%;
 }
 
 .background {
@@ -12,7 +14,7 @@ body {
     background-size: cover;
     -webkit-filter: blur(150px);
             filter: blur(150px);
-    height: 100vh;
+    height: 100vw;
 }
 
 h2 {
