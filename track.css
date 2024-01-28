@@ -13,7 +13,7 @@ body {
     -webkit-filter: blur(150px);
             filter: blur(150px);
     height: 100vh;
-    -webkit-height: 100vh;
+    height: 100svh;
 }
 h2 {
     padding: 20px;
