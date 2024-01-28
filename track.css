@@ -4,6 +4,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     padding: 0;
     margin: 0;
+    width: -webkit-calc(100% - 0px);
 }
 
 .background {
@@ -11,7 +12,8 @@ body {
     background-size: cover;
     -webkit-filter: blur(150px);
             filter: blur(150px);
-            height: 100vh;
+    height: 100vh;
+    -webkit-height: 100vh;
 }
 h2 {
     padding: 20px;
