@@ -12,8 +12,8 @@ body {
     background-size: cover;
     -webkit-filter: blur(150px);
             filter: blur(150px);
+    
     height: 100vh;
-    height: 100svh;
 }
 h2 {
     padding: 20px;
@@ -75,6 +75,9 @@ p {
 }
 
 @media (max-width: 768px) {
+    .background{
+        height: 150vw;
+    }
     .cover img {
         width: 100%;
     }

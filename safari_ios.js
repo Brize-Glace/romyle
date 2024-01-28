@@ -1,1 +1,0 @@
-$('background').height($(window).height()/2);

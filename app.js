@@ -79,7 +79,5 @@ MicroModal.init({
   openClass: 'is-open',
   disableScroll: true,
 });
-window.addEventListener('resize', setHeight);
-window.addEventListener('load', setHeight);
 
 document.getElementById("currentYear").innerText = new Date().getFullYear();
