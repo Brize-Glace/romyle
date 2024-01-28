@@ -82,6 +82,4 @@ MicroModal.init({
 window.addEventListener('resize', setHeight);
 window.addEventListener('load', setHeight);
 
-document.getElementById("background").style.height = window.innerHeight + 'px';
-
 document.getElementById("currentYear").innerText = new Date().getFullYear();

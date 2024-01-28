@@ -13,7 +13,7 @@ body {
     background-size: cover;
     -webkit-filter: blur(150px);
             filter: blur(150px);
-    height:99vh;
+    height:100vh;
     position: relative;
 }
 h2 {
