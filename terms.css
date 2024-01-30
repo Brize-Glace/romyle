@@ -1,0 +1,22 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    padding: 20px;
+    text-align: center;
+}
+h3{
+    padding: 10px;
+    margin: 10px;
+}
+p{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+li{
+    padding-left: 150px;
+    padding-right: 150px;
+    list-style: none;
+}
