@@ -75,7 +75,7 @@ p {
 
 @media (max-width: 768px) {
     .background{
-        height: 180vw;
+        height: 800px;
     }
     .cover img {
         width: 100%;
