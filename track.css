@@ -1,18 +1,32 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 body {
     overflow: hidden;
     background-color: black;
     font-family: 'Josefin Sans', sans-serif;
-    padding: 0;
-    margin: 0;
-    width: -webkit-calc(100% - 0px);
+    height: 100%;
 }
-
 .background {
     background-image: url('img/Illustration_TPH.png');
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     -webkit-filter: blur(150px);
-            filter: blur(150px);
-    height: 100vh;
+    -moz-filter: blur(150px);
+    -o-filter: blur(150px);
+    -ms-filter: blur(150px);
+    filter: blur(150px);
+    z-index: -1;
 }
 h2 {
     padding: 20px;
