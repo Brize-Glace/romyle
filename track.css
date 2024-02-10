@@ -1,15 +1,17 @@
-
-body, html {
+body,
+html {
     height: 100%;
     margin: 0;
     padding: 0;
 }
+
 body {
     overflow: hidden;
     background-color: black;
     font-family: 'Josefin Sans', sans-serif;
     height: 100%;
 }
+
 .background {
     background-image: url('img/Illustration_TPH.png');
     position: fixed;
@@ -28,6 +30,7 @@ body {
     filter: blur(150px);
     z-index: -1;
 }
+
 h2 {
     padding: 20px;
     margin: 10px;
@@ -42,21 +45,21 @@ p {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     z-index: 1;
     margin: 0;
     color: white;
@@ -71,21 +74,46 @@ p {
     padding-right: 10px;
     margin-top: 20px;
 }
+
 .platforms {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
+
 .platforms a {
     color: white;
     text-decoration: none;
 }
+
+.icon-container {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icon-container a {
+    margin: 5px; 
+    flex: 0 0 calc(25% - 20px);
+    text-align: center; 
+}
+
+.icon {
+    width: 100%; /* Assure une taille uniforme pour toutes les icônes */
+    height: auto;
+}
+
+.icon-container img {
+    width: 40px;
+    height: auto;
+}
+
 
 @media (max-width: 768px) {
     .cover img {
@@ -96,18 +124,24 @@ p {
         font-size: 20px;
         text-align: center;
     }
-    h3{
+
+    h3 {
         text-align: center;
     }
-    .platforms i {  
-        display: -webkit-box;  
-        display: -ms-flexbox;  
+
+    .platforms i {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .icon-container img {
+        width: 40px;
+        height: auto;
     }
 }
