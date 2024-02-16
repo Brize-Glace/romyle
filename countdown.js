@@ -24,7 +24,7 @@ const countdown = setInterval(function () {
         clearInterval(countdown);
         document.getElementById('countdown').style.display = 'none';
         document.getElementById('icon-container').style.display = 'flex';
-        document.getElementById('preOrder').style.display = 'none';
-        document.getElementsByTagName('iframe')[0].style.display = 'none';
+        // document.getElementById('preOrder').style.display = 'none';
+        // document.getElementsByTagName('iframe')[0].style.display = 'none';
     }
 }, 1000);

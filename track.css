@@ -69,29 +69,6 @@ p {
     width: 40%;
     border-radius: 25px;
 }
-
-.platforms i {
-    padding-right: 10px;
-    margin-top: 20px;
-}
-
-.platforms {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.platforms a {
-    color: white;
-    text-decoration: none;
-}
-
 .icon-container {
     display: none;
     flex-wrap: wrap;
@@ -117,28 +94,17 @@ p {
 
 @media (max-width: 768px) {
     .cover img {
-        width: 100%;
+        width: 90%;
     }
-
     h2 {
-        font-size: 20px;
+        font-size: 25px;
         text-align: center;
     }
-
     h3 {
         text-align: center;
     }
-
-    .platforms i {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
+    .icon-container{
+        width: 300px;
     }
     .icon-container img {
         width: 40px;
